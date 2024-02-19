@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Bus Tikit</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- "tailwindCSS.includeLanguages": {
+  "plaintext": "html"
+  },
+  "files.associations": {
+  "*.css": "tailwindcss"
+  }, -->
+</head>
+
+<body>
+  <header class="px-32">
+    <nav class="px-">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a> Home </a></li>
+              <li><a> About </a></li>
+              <li><a> Destination </a></li>
+
+              <li><a> Search</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl"> Hero Paribahan</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a> Home </a></li>
+            <li><a> About </a></li>
+            <li><a> Destination </a></li>
+
+            <li><a> Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-lime-100 "><span class="text-green-400 text-base font-bold">Bus</span>
+            <Span><img class="bg-no-repeat bg-center" src="./images/bus-icon.png" alt=""></Span></a>
+        </div>
+      </div>
+    </nav>
+    <div class=" w-auto h-auto rounded-3xl" style="background-image: url( ./images/banner.png);">
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class=" mt-20 mb-5 text-5xl font-bold"> End-to-End Travel with <br> <span class="text-green-600">hero
+              Paribahan</span></h1>
+          <p class="mb-5"> Yes, you can run unit tests and view the results directly within the app. The <br> integrated
+            testing features allow for a
+            streamlined .</p>
+          <button class="btn btn-primary mb-32 text-black bg-green-600 border-0"> Buy Tickets</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="px-0">
+    <!-- Best offers for you -->
+    <section class="mt-32 text-center">
+      <h2 class="text-4xl font-bold mb-12">Best offers for you</h2>
+      <div class="flex justify-center gap-6">
+        <div class="flex bg-amber-400 p-12 gap-28">
+          <div>
+            <h1 class="text-5xl font-black">15% OFF</h1>
+            <p class="text-lg font-semibold">on your next purchase</p>
+            <p class="text-lg font-medium">use by January 2024</p>
+          </div>
+
+          <div>
+            <h1 class="text-3xl font-bold">NEW15</h1>
+            <p class="text-xl font-medium text-slate-600">Coupon Code</p>
+          </div>
+        </div>
+        <div class="flex  bg-pink-400 p-12 gap-28">
+          <div>
+            <h1 class="text-5xl font-black"> 20% OFF</h1>
+            <p class="text-lg font-semibold">on your next purchase</p>
+            <p class="text-lg font-medium">use by January 2024</p>
+          </div>
+          <div>
+            <h1 class="text-3xl font-bold">Couple 20</h1>
+            <p class="text-xl font-medium text-slate-600">Coupon Code</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="btn btn-outline mt-16 mb-32 btn-success text-green-700"> See All Offers</button>
+      </div>
+    </section>
+    <section class="bg-slate-100 rounded-t-3xl border-t-2 border-lime-600">
+      <div class="text-center">
+        <h1 class="pt-32 pb-6 text-4xl font-bold"> Hero Paribahan</h1>
+        <p>Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing
+          features
+          allow for a
+          streamlined .</p>
+      </div>
+      <div class="border-2 bg-slate-50  mx-32 mt-12 p-8">
+        <div class="mt-12 ">
+          <div class="flex gap-32  justify-center">
+            <div>
+              <div class="flex gap-48 justify-evenly">
+                <div class="flex">
+                  <div><img src="./images/bus-logo.png" alt=""></div>
+                  <div>
+                    <h1>Greenline Paribahan</h1>
+                    <p>Coach-009-WEB ! AC_Business</p>
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline btn-success"> <img src="./images/seat-green.png" alt=""> 40 Seats
+                    left</button>
+                </div>
+              </div>
+              <div class="border-2 bg-slate-200 p-7 rounded-3xl mt-8">
+                <div class="flex pb-12 justify-between">
+                  <div>Route</div>
+                  <div>Dhaka - Sylhet</div>
+                </div>
+
+                <div class="flex pb-12 justify-between">
+                  <div>Departure Time</div>
+                  <div>9:00 PM</div>
+                </div>
+
+                <div class="flex justify-between">
+                  <div><button class="btn"> Boarding Point - Laxmipur</button></div>
+                  <div><button class="btn"> Dropping Point - Bogura</button></div>
+                  <div><button class="btn"> Est. Time - 11 Hour</button></div>
+                </div>
+              </div>
+            </div>
+            <div class="grid content-center">
+              <img class="justify-center" src="./images/fare.png" alt="">
+              <h2 class="text-center">550 Taka</h2>
+              <p class="text-center">Per Seat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-2 bg-slate-50  mx-32 mt-12 p-8 mb-7">
+        <div class="flex  gap-3  justify-start">
+          <div>
+            <h1 class="mb-6">Select Your Seat</h1>
+            <div class="flex gap-96 mb-14">
+              <div> <img src="./images/seat-gray.png" alt=""> Available</div>
+              <div> <img src="./images/seat-green-filled.png" alt=""> Selected</div>
+            </div>
+            <div class="flex justify-end mb-9">
+              <div><button class="btn"> <img src="./images/seat-green.png" alt=""></button></div>
+            </div>
+            <div class="flex justify-between items-center mb-6">
+              <div>A</div>
+              <div><button class="btn">A1</button></div>
+              <div><button class="btn">A2</button></div>
+              <div><button class="btn">A3</button></div>
+              <div><button class="btn">A4</button></div>
+            </div>
+            <div class="flex items-center justify-between">
+              <div>B</div>
+              <div><button class="btn">B1</button></div>
+              <div><button class="btn">B2</button></div>
+              <div><button class="btn">B3</button></div>
+              <div><button class="btn">B4</button></div>
+            </div>
+          </div>
+
+
+
+          <div>
+            <h1 class="pb-12">Select Your Seat</h1>
+            <div class=" p-5 border-2 bg-slate-200 rounded-xl  justify-around">
+              <div class="flex gap-32 pb-9">
+                <div>Seat</div>
+                <div>Class</div>
+                <div>Price</div>
+              </div>
+              <div class="flex gap-28 pb-4">
+                <div>C2</div>
+                <div>Economoy</div>
+                <div>550</div>
+              </div>
+              <div class="flex  justify-between pb-8">
+                <div> Total Price</div>
+
+                <div> BDT 1100</div>
+              </div>
+              <div class="pb-8">
+                <label class="input input-bordered flex items-center gap-2">
+                  <input type="text" class="grow" placeholder=" Have any copupon?" />
+                  <span class="badge badge-info"> Apply</span>
+                </label>
+              </div>
+              <div class="flex  justify-between pb-10">
+                <div> Grand Total</div>
+
+                <div> BDT 1100</div>
+              </div>
+              <div class="text-center">
+                <button class="btn btn-wide bg-green-500 text-white"> Next</button>
+              </div>
+              <div class="flex justify-evenly pt-6">
+                <div><u>Terms and Conditions</u></div>
+                <div><u>Cancellation Policy</u></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+  <footer>
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <aside>
+        <div class="">
+          Hero Paribahan
+        </div>
+        </svg>
+        <p> Hero Paribahan is a digital platform to make <br> your daily commuting better.</p>
+      </aside>
+      <nav>
+        <h6 class="footer-title"> Download our app</h6>
+        <div class="grid grid-flow-col gap-4">
+
+          <img src="./images/playstore.png" alt=""> get it on <br>
+          google play
+        </div>
+      </nav>
+
+    </footer>
+
+  </footer>
+</body>
+
+</html>
